@@ -1,0 +1,60 @@
+.breadcrump_all{
+    padding-top: 10rem ;
+    padding-bottom: 10rem;
+    
+
+    
+}
+
+.breadCrump_text{
+    padding-top: 4rem;
+   
+}
+
+.breadCrump_video_here{
+    padding-top: 4rem;
+   
+}
+
+.breadCrump_text .btn_here{
+    padding: 15px 30px;
+    border-radius: 60px;
+    font-weight: 700;
+    border: none;
+    margin: 0;
+    
+  }
+   
+
+.breadCrump_text p  {
+    margin: 0 ;
+   
+}
+
+.breadCrump_text h2{
+    padding-bottom: 20px;
+    font-size: 44px;
+    object-fit: contain;
+}
+
+.breadCrump_text h5{
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    
+}
+
+.breadCrump_video_here .video_here{
+   
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+   
+}
+
+@media only screen and (max-width: 768px) {
+ .breadCrump_video_here{
+ 
+    padding-top: 70px;
+ }
+}

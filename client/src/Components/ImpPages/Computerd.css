@@ -1,0 +1,59 @@
+.computerd_bg{
+   background-color:#121228;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    padding: 100px 0;
+}
+
+
+
+.custom h1{
+   font-weight: 700;
+   font-size: 3.0rem;
+  
+}
+.comp_dataco_bg{
+    background-color: #09113E;
+    color: white;
+    padding: 5% 40px;
+    
+}
+
+.comp_dataco_bg h1{
+    font-size: 42px;
+}
+
+@media screen and (max-width:992px) {
+  .custom h1{
+    font-size: 2.3rem;
+  }
+  .custom h5{
+    font-size: 1rem;
+  }
+  .comp_dataco_bg{
+   padding-top: 5%;
+   padding-bottom: 5%;
+  
+  }
+  .comp_dataco_bg h1{
+    font-size: 2.3rem;
+  }
+   
+}
+
+@media screen and (max-width: 457px) {
+    .custom h1{
+        font-size: 2rem
+    }
+    .custom h5{
+        font-size: 0.92rem;
+    }
+    .comp_dataco_bg h1{
+        font-size: 2rem;
+    }
+    .comp_dataco_bg{
+      padding-top: 15%;
+      padding-bottom: 15%;
+      
+    }
+}

@@ -1,0 +1,18 @@
+export const questions = [
+    {   id: 1,
+        question: "What are software development services?",
+        answer: "Software development services are professional services provided by software development companies that create software solutions tailored to clients' exact needs and requirements. These services are used by businesses to develop, maintain, and improve their software systems. Software development services can include web application development, mobile application development, cloud development, API development, and more.",
+    },
+    {   id: 2,
+        question: "What are software development services?",
+        answer: "Software development services are professional services provided by software development companies that create software solutions tailored to clients' exact needs and requirements. These services are used by businesses to develop, maintain, and improve their software systems. Software development services can include web application development, mobile application development, cloud development, API development, and more.",
+    },
+    {   id: 3,
+        question: "What are software development services?",
+        answer: "Software development services are professional services provided by software development companies that create software solutions tailored to clients' exact needs and requirements. These services are used by businesses to develop, maintain, and improve their software systems. Software development services can include web application development, mobile application development, cloud development, API development, and more.",
+    },
+    {   id: 4,
+        question: "What are software development services?",
+        answer: "Software development services are professional services provided by software development companies that create software solutions tailored to clients' exact needs and requirements. These services are used by businesses to develop, maintain, and improve their software systems. Software development services can include web application development, mobile application development, cloud development, API development, and more.",
+    },
+]

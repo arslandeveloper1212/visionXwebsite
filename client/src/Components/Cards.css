@@ -1,0 +1,64 @@
+.card_handle{
+    display: flex;
+    justify-content: center;
+   
+    flex-wrap: wrap;
+   border: none;
+   background: none;
+  
+}
+
+
+.card-body{
+    margin-top: -10rem;
+    margin-bottom: 10rem;
+    /* margin-bottom: 5rem; */
+   
+    z-index: 1;
+   background-color: rgb(9, 9, 55);
+  padding: 30px 30px;
+  
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   flex-direction: column;
+   
+   border-radius: 7px;
+}
+
+
+
+.card{
+    background: none;
+   
+   
+   
+}
+
+
+
+
+.btn_sm_here:hover{
+    background-color: black;
+    color: white;
+    transition: 0.2s ease-in;
+}
+
+.card_icon{
+   max-width: 70px;
+   margin-bottom: 10px;
+   
+}
+
+
+@media screen and (max-width: 577px){
+    .card{
+       
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+

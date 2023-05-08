@@ -1,0 +1,27 @@
+.contact_background{
+   padding: 70px 0;
+   background-color: #121037;
+}
+
+.contact_handle{
+    background-image: linear-gradient(to right, #121037 ,#1f1a7a,#121037);
+     padding: 32px 52px;
+}
+
+.custom_color{
+ 
+ width: 100%;
+ height:auto;
+ color: red;
+ animation-name: example;
+ animation-duration: 4s;
+ animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {color: #FF1E59;}
+    25% {color:#FFB02F;}
+    50% {color:whitesmoke;}
+    75% {color:#FFB02F;}
+    100% {color: #FF1E59;}
+  }

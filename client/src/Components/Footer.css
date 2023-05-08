@@ -1,0 +1,15 @@
+.custom_footer_1 li  {
+    color: white;
+    padding: 3px
+}
+
+.custom_footer_1 li .hit{
+ 
+ color: white;
+}
+
+.custom_footer_1  li .hit:hover{
+color: #FF1E59 !important;
+transition: 0.3s;
+ 
+}

@@ -1,0 +1,118 @@
+.navhit_none{
+    background-color: black;
+    padding: 20px;
+}
+
+
+.nav_font{
+    font-weight: 400;
+    font-size: 16px;
+   
+ 
+}
+.hover_nav{
+  color: white;
+}
+
+.hover_nav:hover{
+ color:#FF1E59;
+  transition: 0.3s ease-out;
+}
+
+
+.navbar_handle{
+ 
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 100%;
+}
+
+
+   
+   
+
+  
+  .logo{
+    padding: 30px 30px;
+    cursor: pointer;
+  }
+  
+  .navbar_nav ul{
+    list-style-type: none;
+    
+    display: flex;
+   
+   
+    padding: 20px;
+  }
+
+  ul{
+    margin-top: 20px;
+   
+  }
+  
+  .navbar_nav ul li{
+    padding: 0 20px;
+  }
+  .navbar_nav a{
+  
+   text-decoration: none;
+   color: rgb(240, 239, 239);
+   transform: 3s ease-out;
+  }
+
+  .navbar_nav a:hover{
+    color: #FF1E59 !important;
+    transform:  6s ease-in;
+   
+  }
+  
+  .menu_icons, .menu_handle{
+    display: none;
+  }
+  
+  @media screen and (max-width:867px){
+    .menu_icons{
+      display: block;
+      font-size: 32px;
+      position: absolute;
+      right: 34px;
+      top: 27px;
+      cursor: pointer;
+      transition: all 3s ease-in-out;
+      
+      
+     
+     
+    }
+  
+    .menu_icons .fa-close, .fa-bars{
+      color: white;
+      z-index: 1;
+    }
+  
+    .navbar_nav{
+      display: none;
+    }
+    .menu_handle{
+      
+      display: flex;
+      justify-content: center;
+      background-color: rgba(213, 213, 220, 0.04);
+      
+    }
+    .menu_handle li {
+     
+      list-style-type: none;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+    }
+  
+    
+  
+  }
+  

@@ -1,0 +1,10 @@
+.slick_carousel{
+    z-index: 1;
+    border: 1px solid red
+}
+.slick-next:before{
+    display: none;
+}
+.slick-prev:before{
+    display: none;
+}

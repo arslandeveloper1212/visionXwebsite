@@ -1,0 +1,23 @@
+.industries_bg{
+   padding: 8% 0;
+   margin: 60px 0;
+    background-image: linear-gradient(to bottom right, #0A0E26, #091E44);
+}
+
+.indust_handle{
+   color: white;
+  
+}
+
+.indust_handle .indust, .indust_indus{
+margin-top: 3rem;
+}
+.indust_indus h4{
+padding-top: 40px;
+}
+
+.indust_img{
+   
+    height: auto;
+    width: 100%;
+}
