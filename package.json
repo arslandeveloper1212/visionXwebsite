@@ -1,20 +1,13 @@
 {
-  "name": "visionXwebsite-github-io",
+  "name": "server",
   "version": "1.0.0",
-  "description": "",
-  "scripts": {
-    "build": "npm run build",
-    "test": "echo \"No test specified\" && exit 1",
-    "start": "node index.js"
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/arslandeveloper1212/visionXwebsite-github-io.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/arslandeveloper1212/visionXwebsite-github-io/issues"
-  },
-  "homepage": "https://github.com/arslandeveloper1212/visionXwebsite-github-io#readme"
+  "repository": "https://github.com/arslandeveloper1212/visionXwebsite-github-io.git",
+  "author": "Arslan Ahmad <106490352+arslandeveloper1212@users.noreply.github.com>"
 }
